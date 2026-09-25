@@ -1,0 +1,222 @@
+{
+  "revision": 26,
+  "status": "Solid-face, two-post surface-mounted U pull; tray-only update.",
+  "print_scope": "Print tray_REV26.stl only and reuse the existing REV22 base/lid unchanged.",
+  "parts": {
+    "base_reused": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 435694.71036573825,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          244.0,
+          145.0,
+          107.6
+        ]
+      ]
+    },
+    "lid_reused": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 93383.77197355602,
+      "bounds_mm": [
+        [
+          3.65,
+          0.0,
+          0.0
+        ],
+        [
+          236.35,
+          142.0,
+          7.0
+        ]
+      ]
+    },
+    "tray_rev25_reference": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 27334.13957072046,
+      "bounds_mm": [
+        [
+          0.0,
+          -13.9933,
+          0.0
+        ],
+        [
+          76.7,
+          108.0,
+          17.4
+        ]
+      ]
+    },
+    "tray_rev26": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 23718.441960224856,
+      "bounds_mm": [
+        [
+          0.0,
+          -20.4925,
+          0.0
+        ],
+        [
+          76.7,
+          108.0,
+          17.4
+        ]
+      ]
+    }
+  },
+  "reused_enclosure_sha256": {
+    "base_REV22.stl": "c8f2ee4ced3db777a829e1e4cf85d85ae8f1acd811d964b96eac7e5f5a03c957",
+    "top_REV22.stl": "e2aac942311a2e56685b89f372496016a5b39e2e6c49b2c93c928b193b10f3f3"
+  },
+  "pair_intersections_mm3": {
+    "base/lid": 0.0,
+    "base/tray1": 0.0,
+    "base/tray2": 0.0,
+    "base/tray3": 0.0,
+    "base/tray4": 0.0,
+    "base/tray5": 0.0,
+    "lid/tray1": 0.0,
+    "lid/tray2": 0.0,
+    "lid/tray3": 0.0,
+    "lid/tray4": 0.0,
+    "lid/tray5": 0.0,
+    "tray1/tray2": 0.0,
+    "tray1/tray3": 0.0,
+    "tray1/tray4": 0.0,
+    "tray1/tray5": 0.0,
+    "tray2/tray3": 0.0,
+    "tray2/tray4": 0.0,
+    "tray2/tray5": 0.0,
+    "tray3/tray4": 0.0,
+    "tray3/tray5": 0.0,
+    "tray4/tray5": 0.0
+  },
+  "motion_intersections_mm3": {
+    "tray1:0.0": 0.0,
+    "tray1:-8.0": 0.0,
+    "tray1:-15.0": 0.0,
+    "tray1:-50.0": 0.0,
+    "tray1:-90.0": 0.0,
+    "tray1:-115.0": 0.0,
+    "tray1:rear_stop_+0.05": 1.0800652694306336,
+    "tray2:0.0": 0.0,
+    "tray2:-8.0": 0.0,
+    "tray2:-15.0": 0.0,
+    "tray2:-50.0": 0.0,
+    "tray2:-90.0": 0.0,
+    "tray2:-115.0": 0.0,
+    "tray2:rear_stop_+0.05": 1.0800652694306336,
+    "tray3:0.0": 0.0,
+    "tray3:-8.0": 0.0,
+    "tray3:-15.0": 0.0,
+    "tray3:-50.0": 0.0,
+    "tray3:-90.0": 0.0,
+    "tray3:-115.0": 0.0,
+    "tray3:rear_stop_+0.05": 1.0800652694306336,
+    "tray4:0.0": 0.0,
+    "tray4:-8.0": 0.0,
+    "tray4:-15.0": 0.0,
+    "tray4:-50.0": 0.0,
+    "tray4:-90.0": 0.0,
+    "tray4:-115.0": 0.0,
+    "tray4:rear_stop_+0.05": 1.0800652694306336,
+    "tray5:0.0": 0.0,
+    "tray5:-8.0": 0.0,
+    "tray5:-15.0": 0.0,
+    "tray5:-50.0": 0.0,
+    "tray5:-90.0": 0.0,
+    "tray5:-115.0": 0.0,
+    "tray5:rear_stop_+0.05": 1.0800652694306336
+  },
+  "u_handle": {
+    "style": "round surface-mounted U pull with two oval end mounts",
+    "post_centres_x_mm": [
+      16.35,
+      60.35
+    ],
+    "post_spacing_mm": 44.0,
+    "round_tube_diameter_mm": 7.0,
+    "mount_pad_whd_mm": [
+      12.5,
+      12.5,
+      2.5
+    ],
+    "minimum_y_mm": -20.4925,
+    "front_reach_mm": 20.5,
+    "free_finger_gap_behind_bar_mm": 11.0,
+    "solid_middle_panel_missing_volume_mm3": 0.0,
+    "single_watertight_connected_mesh": true,
+    "style_changes_limited_to_front_roi": [
+      [
+        3.0,
+        -21.0,
+        0.0
+      ],
+      [
+        74.0,
+        4.0,
+        17.4
+      ]
+    ],
+    "rev25_to_rev26_added_mm3": 2207.898932843969,
+    "rev25_to_rev26_removed_mm3": 5823.5964178932145
+  },
+  "vcom_clearance": {
+    "five_bay_intersection_checks": [
+      {
+        "bay": 1,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 2,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 3,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 4,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 5,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      }
+    ]
+  },
+  "combined_preview_assembly": {
+    "components": 7,
+    "bounds_mm": [
+      [
+        0.0,
+        -16.4925,
+        0.0
+      ],
+      [
+        244.0,
+        145.0,
+        109.0
+      ]
+    ],
+    "note": "Fit-check arrangement only; print the components separately."
+  },
+  "existing_base_and_lid_unmodified": true
+}

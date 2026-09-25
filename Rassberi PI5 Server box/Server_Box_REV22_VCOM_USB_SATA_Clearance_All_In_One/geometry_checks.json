@@ -1,0 +1,283 @@
+{
+  "revision": 22,
+  "status": "Every rear HDD pass-through is widened for a VCOM CU815-class USB 3.0-to-SATA head.  No adapter is included as printable geometry.",
+  "baseline_sha256": {
+    "base_REV21.stl": "5870c5e22d447cef128f9931982582f6b90d8d06d65f0e5a173856b49c4b6b2d",
+    "geometry_checks.json": "573fe1b937f694cc4418ca70e0f100609c11f1677a64b14951d8a9f6961c5735",
+    "READ_ME_FIRST.md": "eb821395a451d9126f46fbb29487f29e7f61b4373f498e51e280c50ebcd7ab7f",
+    "REV21_ASSEMBLY_VIEW.png": "d4b018c238bef8b12e59b16a8cd073e858ec081f016210e0c22ace5a70bc3a73",
+    "REV21_HANDLE_CLOSE_UP.png": "041d334bd94290e076f9ea36ac97293dba8cc04abff7c2d3dcb53a36d43690fe",
+    "REV21_TRAYS_PULLED_VIEW.png": "2a61f4ee2aaa4244013bbaa8f4b29e52fb94c47ce122e6e77ee37e1cbbfe48b8",
+    "Server_Box_REV21.scad": "4342968b0f43b47236e90b6de57eb380a6131ccf1e341343e4faf6fe3e2fc516",
+    "Server_Box_REV21_ASSEMBLY.stl": "cfaa8596635629ad93e5056cc576f065061cdd3e3b8970cbea0137c1bf9fe728",
+    "top_REV21.stl": "e2aac942311a2e56685b89f372496016a5b39e2e6c49b2c93c928b193b10f3f3",
+    "tray_REV21.stl": "e5cbac49b43068b69a63edc067acfe5752d5ea721a4c2c5c4b021ea28f95ff75"
+  },
+  "parts": {
+    "base": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 435694.71036573825,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          244.0,
+          145.0,
+          107.6
+        ]
+      ]
+    },
+    "top": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 93383.77197355601,
+      "bounds_mm": [
+        [
+          3.65,
+          0.0,
+          0.0
+        ],
+        [
+          236.35,
+          142.0,
+          7.0
+        ]
+      ]
+    },
+    "tray": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 22096.948511204395,
+      "bounds_mm": [
+        [
+          0.0,
+          -4.0,
+          0.0
+        ],
+        [
+          76.7,
+          108.0,
+          17.4
+        ]
+      ]
+    }
+  },
+  "change_scope": {
+    "top_unchanged": true,
+    "tray_unchanged": true,
+    "base_added_mm3": 0.0,
+    "base_removed_mm3": 12378.0,
+    "base_change_outside_rear_adapter_roi_mm3": 0.0,
+    "rear_adapter_roi_mm": [
+      [
+        7.0,
+        115.0,
+        4.0
+      ],
+      [
+        90.0,
+        142.0,
+        96.0
+      ]
+    ],
+    "pi_port_geometry_preserved_by_scoped_change": true
+  },
+  "vcom_adapter_clearance": [
+    {
+      "bay": 1,
+      "envelope_bounds_mm": [
+        [
+          21.0,
+          108.0,
+          6.0
+        ],
+        [
+          71.0,
+          138.0,
+          17.0
+        ]
+      ],
+      "base_collision_before_mm3": 396.0,
+      "base_collision_after_mm3": 0.0,
+      "tray_collision_after_mm3": 0.0
+    },
+    {
+      "bay": 2,
+      "envelope_bounds_mm": [
+        [
+          21.0,
+          108.0,
+          25.0
+        ],
+        [
+          71.0,
+          138.0,
+          36.0
+        ]
+      ],
+      "base_collision_before_mm3": 396.0,
+      "base_collision_after_mm3": 0.0,
+      "tray_collision_after_mm3": 0.0
+    },
+    {
+      "bay": 3,
+      "envelope_bounds_mm": [
+        [
+          21.0,
+          108.0,
+          44.0
+        ],
+        [
+          71.0,
+          138.0,
+          55.0
+        ]
+      ],
+      "base_collision_before_mm3": 396.0,
+      "base_collision_after_mm3": 0.0,
+      "tray_collision_after_mm3": 0.0
+    },
+    {
+      "bay": 4,
+      "envelope_bounds_mm": [
+        [
+          21.0,
+          108.0,
+          63.0
+        ],
+        [
+          71.0,
+          138.0,
+          74.0
+        ]
+      ],
+      "base_collision_before_mm3": 396.0,
+      "base_collision_after_mm3": 0.0,
+      "tray_collision_after_mm3": 0.0
+    },
+    {
+      "bay": 5,
+      "envelope_bounds_mm": [
+        [
+          21.0,
+          108.0,
+          82.0
+        ],
+        [
+          71.0,
+          138.0,
+          93.0
+        ]
+      ],
+      "base_collision_before_mm3": 396.0,
+      "base_collision_after_mm3": 0.0,
+      "tray_collision_after_mm3": 0.0
+    }
+  ],
+  "pair_intersections_mm3": {
+    "base/lid": 0.0,
+    "base/tray1": 0.0,
+    "base/tray2": 0.0,
+    "base/tray3": 0.0,
+    "base/tray4": 0.0,
+    "base/tray5": 0.0,
+    "lid/tray1": 0.0,
+    "lid/tray2": 0.0,
+    "lid/tray3": 0.0,
+    "lid/tray4": 0.0,
+    "lid/tray5": 0.0,
+    "tray1/tray2": 0.0,
+    "tray1/tray3": 0.0,
+    "tray1/tray4": 0.0,
+    "tray1/tray5": 0.0,
+    "tray2/tray3": 0.0,
+    "tray2/tray4": 0.0,
+    "tray2/tray5": 0.0,
+    "tray3/tray4": 0.0,
+    "tray3/tray5": 0.0,
+    "tray4/tray5": 0.0
+  },
+  "motion_intersections_mm3": {
+    "tray1:0": 0.0,
+    "tray1:-8": 0.0,
+    "tray1:-15": 0.0,
+    "tray1:-50": 0.0,
+    "tray1:-90": 0.0,
+    "tray1:-115": 0.0,
+    "tray1:+0.05_rear_stop": 1.0800652694306336,
+    "tray2:0": 0.0,
+    "tray2:-8": 0.0,
+    "tray2:-15": 0.0,
+    "tray2:-50": 0.0,
+    "tray2:-90": 0.0,
+    "tray2:-115": 0.0,
+    "tray2:+0.05_rear_stop": 1.0800652694306336,
+    "tray3:0": 0.0,
+    "tray3:-8": 0.0,
+    "tray3:-15": 0.0,
+    "tray3:-50": 0.0,
+    "tray3:-90": 0.0,
+    "tray3:-115": 0.0,
+    "tray3:+0.05_rear_stop": 1.0800652694306336,
+    "tray4:0": 0.0,
+    "tray4:-8": 0.0,
+    "tray4:-15": 0.0,
+    "tray4:-50": 0.0,
+    "tray4:-90": 0.0,
+    "tray4:-115": 0.0,
+    "tray4:+0.05_rear_stop": 1.0800652694306336,
+    "tray5:0": 0.0,
+    "tray5:-8": 0.0,
+    "tray5:-15": 0.0,
+    "tray5:-50": 0.0,
+    "tray5:-90": 0.0,
+    "tray5:-115": 0.0,
+    "tray5:+0.05_rear_stop": 1.0800652694306336
+  },
+  "vcom_adapter_spec": {
+    "width_mm": 50,
+    "height_mm": 11,
+    "depth_mm": 30,
+    "nominal_adapter_head_mm": [
+      45,
+      11,
+      25
+    ],
+    "rear_window_mm": [
+      54,
+      16
+    ],
+    "window_side_clearance_for_50mm_envelope_mm": 2,
+    "window_top_clearance_for_11mm_envelope_mm": 3,
+    "rear_cable_chase_end_y_mm": 142
+  },
+  "combined": {
+    "watertight": true,
+    "components": 7,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        244.0,
+        145.0,
+        109.0
+      ]
+    ],
+    "warning": "Assembly positions only. Split and arrange seven parts before printing."
+  },
+  "print_notes": [
+    "The VCOM adapter and USB cable are clearance references only, not printable parts.",
+    "Insert the drive tray first; then connect the SATA head through the larger rear opening.",
+    "Test one drive plus adapter before printing all five trays."
+  ]
+}
