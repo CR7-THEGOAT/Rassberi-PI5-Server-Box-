@@ -1,0 +1,224 @@
+{
+  "revision": 27,
+  "status": "Small lid circle and complete rear five-port Ethernet-board compartment removed.",
+  "parts": {
+    "base": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 442664.6426527255,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          244.0,
+          145.0,
+          107.6
+        ]
+      ]
+    },
+    "top": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 95404.81010595598,
+      "bounds_mm": [
+        [
+          3.65,
+          0.0,
+          0.0
+        ],
+        [
+          236.35,
+          142.0,
+          7.0
+        ]
+      ]
+    },
+    "tray": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 23718.44196022485,
+      "bounds_mm": [
+        [
+          0.0,
+          -20.4925,
+          0.0
+        ],
+        [
+          76.7,
+          108.0,
+          17.4
+        ]
+      ]
+    }
+  },
+  "assembly_file": {
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 7,
+    "volume_mm3": 656661.66181917,
+    "bounds_mm": [
+      [
+        0.0,
+        -16.49250030517578,
+        0.0
+      ],
+      [
+        244.0,
+        145.0,
+        109.0
+      ]
+    ]
+  },
+  "pair_intersections_mm3": {
+    "base/top": 0.0,
+    "base/tray1": 0.0,
+    "base/tray2": 0.0,
+    "base/tray3": 0.0,
+    "base/tray4": 0.0,
+    "base/tray5": 0.0,
+    "top/tray1": 0.0,
+    "top/tray2": 0.0,
+    "top/tray3": 0.0,
+    "top/tray4": 0.0,
+    "top/tray5": 0.0,
+    "tray1/tray2": 0.0,
+    "tray1/tray3": 0.0,
+    "tray1/tray4": 0.0,
+    "tray1/tray5": 0.0,
+    "tray2/tray3": 0.0,
+    "tray2/tray4": 0.0,
+    "tray2/tray5": 0.0,
+    "tray3/tray4": 0.0,
+    "tray3/tray5": 0.0,
+    "tray4/tray5": 0.0
+  },
+  "motion_intersections_mm3": {
+    "tray1:0.0": 0.0,
+    "tray1:-8.0": 0.0,
+    "tray1:-15.0": 0.0,
+    "tray1:-50.0": 0.0,
+    "tray1:-90.0": 0.0,
+    "tray1:-115.0": 0.0,
+    "tray2:0.0": 0.0,
+    "tray2:-8.0": 0.0,
+    "tray2:-15.0": 0.0,
+    "tray2:-50.0": 0.0,
+    "tray2:-90.0": 0.0,
+    "tray2:-115.0": 0.0,
+    "tray3:0.0": 0.0,
+    "tray3:-8.0": 0.0,
+    "tray3:-15.0": 0.0,
+    "tray3:-50.0": 0.0,
+    "tray3:-90.0": 0.0,
+    "tray3:-115.0": 0.0,
+    "tray4:0.0": 0.0,
+    "tray4:-8.0": 0.0,
+    "tray4:-15.0": 0.0,
+    "tray4:-50.0": 0.0,
+    "tray4:-90.0": 0.0,
+    "tray4:-115.0": 0.0,
+    "tray5:0.0": 0.0,
+    "tray5:-8.0": 0.0,
+    "tray5:-15.0": 0.0,
+    "tray5:-50.0": 0.0,
+    "tray5:-90.0": 0.0,
+    "tray5:-115.0": 0.0
+  },
+  "removed_features": {
+    "small_lid_circle_closed": true,
+    "lid_circle_probe_missing_volume_mm3": 0.0,
+    "rear_rj45_zone_closed": true,
+    "rear_12v_zone_closed": true,
+    "rear_air_zone_closed": true,
+    "rear_ethernet_support_removed": true,
+    "regular_pi_ethernet_side_opening_retained": true,
+    "base_change": {
+      "added_mm3": 10812.131370971849,
+      "removed_mm3": 3842.1999893188477,
+      "outside_added_mm3": 0.0,
+      "outside_removed_mm3": 0.0,
+      "allowed_roi_mm": [
+        [
+          100.0,
+          64.0,
+          0.0
+        ],
+        [
+          236.5,
+          145.0,
+          82.0
+        ]
+      ]
+    },
+    "top_change": {
+      "added_mm3": 2021.0381680729333,
+      "removed_mm3": 0.0,
+      "outside_added_mm3": 0.0,
+      "outside_removed_mm3": 0.0,
+      "allowed_roi_mm": [
+        [
+          151.5,
+          42.0,
+          0.0
+        ],
+        [
+          178.5,
+          69.0,
+          8.0
+        ]
+      ]
+    },
+    "tray_matches_rev26_geometrically": true
+  },
+  "vcom_clearance": {
+    "five_bay_intersection_checks": [
+      {
+        "bay": 1,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 2,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 3,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 4,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      },
+      {
+        "bay": 5,
+        "base_intersection_mm3": 0.0,
+        "tray_intersection_mm3": 0.0
+      }
+    ]
+  },
+  "assembly": {
+    "components": 7,
+    "bounds_mm": [
+      [
+        0.0,
+        -16.49250030517578,
+        0.0
+      ],
+      [
+        244.0,
+        145.0,
+        109.0
+      ]
+    ],
+    "print_note": "Use individual STLs; assembled file is for viewing and fit checking."
+  }
+}
